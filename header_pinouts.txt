@@ -1,0 +1,18 @@
+pinoutit:
+prossukortti:
+32 gnd
+31 vcc
+64 gnd
+63 vcc
+
+modeemi:
+32 gnd
+31 vcc
+64 gnd
+63 vcc
+
+vräppilangat:
+modeemi 22 -> prossukortti 2  (D8 (MC1489P) Vs)
+modeemi 42 -> prossukortti 28 (RS232 USART output modeemille)
+modeemi 44 -> prossukortti 34 (RS232 USART DTR)
+modeemi 47 -> prossukortti 50 (RS232 USART input modeemilta)
